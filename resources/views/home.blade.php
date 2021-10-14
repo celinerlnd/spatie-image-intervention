@@ -48,7 +48,7 @@
                                 <label class="custom-file-label" for="chooseFile">Select file</label>
                             </div>
 
-                            <button type="submit" name="submit" class="btn btn-outline-danger btn-block mt-4">
+                            <button type="submit" name="submit" class="btn btn-outline-primary btn-block mt-4">
                                 Upload
                             </button>
                         </form>

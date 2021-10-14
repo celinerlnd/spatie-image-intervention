@@ -20,5 +20,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/file-resize', [ResizeController::class, 'index']);
-Route::post('/resize-file', [ResizeController::class, 'resizeImage'])->name('resizeImage');
+Route::get('/file-resize', [App\Http\Controllers\ResizeController::class, 'index']);
+Route::post('/resize-file', [App\Http\Controllers\ResizeController::class, 'resizeImage'])->name('resizeImage');
